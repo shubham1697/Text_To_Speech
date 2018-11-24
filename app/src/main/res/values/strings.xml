@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Text_To_Speech</string>
+    <string name="tts">Text To Speech</string>
 </resources>
