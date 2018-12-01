@@ -10,8 +10,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/et1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="34dp"
+        android:layout_alignStart="@+id/bt1"
+        android:layout_marginBottom="44dp"
         android:ems="10"
         android:gravity="center"
         android:text="Text to speech"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/et1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="22dp"
         android:gravity="center"
         android:text="CLick to convert to Speech" />
 
@@ -33,7 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:ems="10"
+        android:hint="Write text here"
         android:inputType="textPersonName"
-        android:text="Name" />
+        />
 
 </RelativeLayout>
